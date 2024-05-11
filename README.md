@@ -22,16 +22,17 @@ Before running the Terraform scripts, ensure you have the following prerequisite
 
    ```bash
    git clone <repository-url>
-   
+   ``
 2.Navigate to the cloned repository directory:
 
     ```bash
    cd Terraform-deployment
-
+```
 3.Initialize Terraform and configure the backend:
 
        ```bash
    terraform init
+   ```
 
 4.Modify the terraform.tfvars file to customize the deployment settings according to your requirements.
 
@@ -41,10 +42,12 @@ Before running the Terraform scripts, ensure you have the following prerequisite
    
    ```bash
    terraform plan
+```
 
 7.Apply the Terraform changes to deploy the infrastructure:
     ```bash
    terraform apply
+   ```
 
 8.Confirm the deployment by reviewing the Terraform output.
    
